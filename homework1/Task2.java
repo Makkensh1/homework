@@ -1,3 +1,5 @@
+package homework1;
+
 public class Task2 {
     public static void main(String[] args) {
     int [] Arr = {5, 63, 33, -28, 25, 1, 15, 24, 0, 4};
