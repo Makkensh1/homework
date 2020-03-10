@@ -22,7 +22,7 @@ public class Task4 {
         Arr = new int[n];
         Arr2 = new int[1];
         for (int i = 0; i <= (n - 1); i++) {
-            Arr[i] = (int) (Math.random() * n+1);
+            Arr[i] = (int) (Math.random() * (n+1));
         }
         System.out.println(Arrays.toString(Arr));
         for (int m = 0; m <= (n - 1); m++) {
